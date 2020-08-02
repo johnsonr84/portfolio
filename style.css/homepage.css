@@ -14,12 +14,7 @@ h1 {
 }
 
 p {
-    padding: 25px;
-    margin: 20px;
+    padding-left: 25px;
+    margin: 25px;
     text-align: left;
-    
-}
-
-.nav-social {
-  
 }

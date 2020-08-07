@@ -10,15 +10,15 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- css style file -->
-    <link rel="stylesheet" href="./style.css/homepage.css">
+  <link rel="stylesheet" href="./style.css/homepage.css">
   <!-- font awesome style link-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand nav-itme active" href="./index.html">Robert Johnson <span
+  <nav class="nav navbar fixed-top navbar-fixed navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand nav-item active" href="./index.html">Robert Johnson <span
         class="sr-only">(current)</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,12 +37,13 @@
           <a class="nav-link" href="./about.html">About</a>
         </li>
         <li class="nav-item">
-          <a href="https://github.com/johnsonr84" target="blank"
-              class="fa fa-github"></a>
+          <a href="https://github.com/johnsonr84" target="blank" class="fa fa-github"></a>
         </li>
         <li class="nav-item">
-          <a href="https://www.linkedin.com/in/robertjohnson1984/" target="blank"
-              class="fa fa-linkedin"></a>
+          <a href="https://www.linkedin.com/in/robertjohnson1984/" target="blank" class="fa fa-linkedin"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
         </li>
       </ul>
     </div>
@@ -60,32 +61,53 @@
     </div>
     <!-- row with image to the left and text to the right -->
     <div class="row">
-      <div class="col-3">
-        <img class="homepagePhoto_1" src="./images/rob_1.JPG"
-          alt="professional photo of myself smiling in a suit, tie and wearing glasses">
+      <div class="col-lg-3">
+        <img class="img img-thumbnail" src="./images/rob_1.JPG">
       </div>
-      <div class="col-9">
-        <p>Hello! I am Rob. I am a dog father with an excellent foundation in Front End Development. I am full of
-          positive energy and enjoy making people laugh. There are several core skills I bring to the table including
-          business development, team building, training and project management.</p>
-        <p>I am currently expanding my dev skills as a student at the
-          U of U Full Stack Coding Bootcamp virtual Zoom classes. I currently hold a certificate in Front End
-          Development from the Iron Yard and have 1-year of programming experience.
+      <div class="col-lg-9">
+        <p>Hello! I am Rob - A dog father with an excellent foundation in Front End Development. I am full of
+          positive energy and enjoy making people laugh. I currently hold a certificate in Front End Development from
+          the Iron Yard and I have 1-year experience in Front End Devlopment.
+        </p>
+        <p>I am currently expanding my dev skills as a student at the U of U Full Stack Coding Bootcamp in evening
+          virtual Zoom
+          classes. This portfolio page was built with Bootstrap and features several projects I've completed in my
+          coding bootcamp. Please check out my portfolio page the features examples of some of my projects!
         </p>
       </div>
     </div>
-  </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>-->
+    <!-- footer -->
+    <footer class="mt-auto" id="footer">
+      <div class="nav nav-bar fixed-bottom bg-dark align-items-baseline">
+          <div class="col-md-6 col-sm-12">
+            <ul class="copyright">
+              <li class="nav-item">
+                <p class="text-muted text-center"
+                >All rights reserved @ 2020 | Devdork </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <ul class="email">
+              <li class="nav-item">
+                <a class="text-muted text-center", href="mailto:contact.robertcjohnson1984@gmail.com">Email: robertcjohnson1984@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
